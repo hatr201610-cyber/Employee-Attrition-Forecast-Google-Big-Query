@@ -1,4 +1,4 @@
--Build Booosted Tree Classifier
+-Build Boosted Tree Classifier
 CREATE OR REPLACE MODEL `project-tranha-302-demo.DA04_ML.attrition_booostedtree_model`
 OPTIONS
         (
