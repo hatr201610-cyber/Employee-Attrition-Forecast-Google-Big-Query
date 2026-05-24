@@ -12,6 +12,13 @@ The project compares multiple classification models and evaluates their predicti
 - <b>SQL</b>
 - <b>Machine Learning Classification Models</b>
 
+<h2>SQL Scripts</h2>
+
+- [Logistic Regression Model](./sql/logistic_regression.sql)
+- [Boosted Tree Classifier](./sql/boosted_tree.sql)
+- [Random Forest Classifier](./sql/random_forest.sql)
+- [Prediction Query](./sql/prediction.sql)
+
 <h2>Project Workflow</h2>
 
 <h3>1. Data Preparation</h3>
