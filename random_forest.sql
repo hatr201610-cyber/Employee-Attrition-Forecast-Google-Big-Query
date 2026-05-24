@@ -22,11 +22,3 @@ SELECT *  FROM ML.CONFUSION_MATRIX (MODEL `project-tranha-302-demo.DA04_ML.attri
                             SELECT * EXCEPT (employee_id)
                             FROM `project-tranha-302-demo.DA04_ML.attrition_test`
                           );
-
-
---Predict Model
-SELECT * FROM ML.PREDICT (MODEL `project-tranha-302-demo.DA04_ML.attrition_booostedtree_model`,
-                          (
-                            SELECT * EXCEPT (employee_id, attrition)
-                            FROM `project-tranha-302-demo.DA04_ML.attrition_test`
-                          ))
